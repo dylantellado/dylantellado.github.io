@@ -6,37 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dylan Tellado's Project Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Welcome to My Project Portfolio</h1>
+        <div class="container">
+            <h1>Welcome to My Project Portfolio</h1>
+            <p>Explore my work and projects below</p>
+        </div>
     </header>
     <main>
-        <section id="projects">
+        <section id="projects" class="container">
             <h2>Projects</h2>
-            <ul>
+            <ul class="project-list">
                 <li>
-                    <h3>Ivy League Fantasy Draft</h3>
+                    <h3><i class="fas fa-drafting-compass"></i> Ivy League Fantasy Draft</h3>
                     <p>This project simulates a fantasy draft system for Ivy League sports teams, allowing users to create and manage their own fantasy teams based on real-life player statistics and performance.</p>
-                    <a href="https://github.com/dylantellado/ivyleague_fantasydraft">View Project</a>
+                    <a href="https://github.com/dylantellado/ivyleague_fantasydraft" class="btn">View Project</a>
                 </li>
                 <li>
-                    <h3>Stock Trading Simulator</h3>
+                    <h3><i class="fas fa-chart-line"></i> Stock Trading Simulator</h3>
                     <p>An interactive platform that simulates the experience of investing in the stock market, enabling users to create and manage virtual stock portfolios with real-time price updates and detailed performance tracking.</p>
-                    <a href="https://github.com/dylantellado/stock_trading_simulator">View Project</a>
+                    <a href="https://github.com/dylantellado/stock_trading_simulator" class="btn">View Project</a>
                 </li>
                 <li>
-                    <h3>MiniML</h3>
+                    <h3><i class="fas fa-code"></i> MiniML</h3>
                     <p>Implementation of MiniML, a simplified subset of the OCaml programming language, featuring core constructs, advanced semantic models, and enhancements for mathematical operations and functional programming.</p>
-                    <a href="https://github.com/dylantellado/MiniML">View Project</a>
+                    <a href="https://github.com/dylantellado/MiniML" class="btn">View Project</a>
                 </li>
                 <!-- Add more projects as needed -->
             </ul>
         </section>
     </main>
     <footer>
-        <p>© 2024 Dylan Tellado. All rights reserved.</p>
+        <div class="container">
+            <p>© 2024 Dylan Tellado. All rights reserved.</p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/dylan-tellado-153baa224" target="_blank">LinkedIn</a></p>
+        </div>
     </footer>
 </body>
 
